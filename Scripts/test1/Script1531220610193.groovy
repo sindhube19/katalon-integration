@@ -24,27 +24,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://login.salesforce.com/')
 
-WebUI.setText(findTestObject('Page_Login  Salesforce/input_username'), 'sindhuja.e@mstsolutions.com')
+WebUI.setText(findTestObject('Page_Login  Salesforce (1)/input_username'), 'sindhuja.e@mstsolutions.com')
 
-WebUI.setText(findTestObject('Page_Login  Salesforce/input_pw'), 'S!ndhuja1219')
+WebUI.setText(findTestObject('Page_Login  Salesforce (1)/input_pw'), 'S!ndhuja1219')
 
-WebUI.click(findTestObject('Page_Login  Salesforce/input_Login'))
+WebUI.click(findTestObject('Page_Login  Salesforce (1)/input_Login'))
 
-WebUI.click(findTestObject('Page_Home Page  Salesforce - Develo/a_Leads'))
+WebUI.click(findTestObject('Page_Home Page  Salesforce - Develo (1)/a_Leads'))
 
-WebUI.click(findTestObject('Page_Leads Home  Salesforce - Devel/a_Close'))
+WebUI.click(findTestObject('Page_Leads Home  Salesforce - Devel (1)/div_Lightning Experience is th'))
 
-WebUI.click(findTestObject('Page_Leads Home  Salesforce - Devel/input_new'))
+WebUI.click(findTestObject('Page_Leads Home  Salesforce - Devel (1)/a_Close'))
 
-WebUI.click(findTestObject('Page_New Lead Select Lead Record Ty/input_save'))
+WebUI.click(findTestObject('Page_Leads Home  Salesforce - Devel (1)/input_new'))
 
-WebUI.setText(findTestObject('Page_Lead Edit New Lead  Salesforce/input_name_lastlea2'), 'sindhuja')
+WebUI.click(findTestObject('Page_New Lead Select Lead Record Ty (1)/input_save'))
 
-WebUI.setText(findTestObject('Page_Lead Edit New Lead  Salesforce/input_lea3'), 'mst')
+WebUI.setText(findTestObject('Page_Lead Edit New Lead  Salesforce (1)/input_name_lastlea2'), 'sindhu')
 
-WebUI.setText(findTestObject('Page_Lead Edit New Lead  Salesforce/input_lea8'), '9834897123')
+WebUI.setText(findTestObject('Page_Lead Edit New Lead  Salesforce (1)/input_lea3'), 'mst')
 
-WebUI.click(findTestObject('Page_Lead Edit New Lead  Salesforce/input_save'))
+WebUI.setText(findTestObject('Page_Lead Edit New Lead  Salesforce (1)/input_lea8'), '9834897123')
+
+WebUI.setText(findTestObject('Page_Lead Edit New Lead  Salesforce (1)/input_lea11'), 'sindhu@gmail.com')
+
+WebUI.click(findTestObject('Page_Lead Edit New Lead  Salesforce (1)/input_save'))
 
 WebUI.closeBrowser()
 

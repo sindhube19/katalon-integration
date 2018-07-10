@@ -4,5 +4,5 @@
    <name>katalon-integration</name>
    <tag></tag>
    <UUID>5b1aa38e-3410-47ba-8158-7641c8644530</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
